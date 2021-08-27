@@ -9,10 +9,10 @@ Word Day Scheduler
 Designed a scheduler to add important events to a daily planner.
 
 ## Links
-<!-- [Source Code](https://github.com/asantercureton/timed-quiz)
+[Source Code](https://github.com/asantercureton/work-day-scheduler)
 
 
-[Description Link](https://asantercureton.github.io/timed-quiz/) -->
+[Description Link](https://asantercureton.github.io/work-day-scheduler/)
 
 
 ## Usage
@@ -22,11 +22,7 @@ Presents user with a button to start the quiz and stores their highscore using l
 ## Screenshots
 Below is a screenshot of the project:
 
-<!-- ![Image of html](./images/code-quiz-start2.jpg)
-
-![Image of html](./images/quiz-display2.jpg)
-
-![Image of html](./images/highscores-display.jpg) -->
+![Image of html](./assets/images/scheduler.jpg)
 
 ---
 © 2021 Work Day Scheduler.
