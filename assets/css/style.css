@@ -23,6 +23,7 @@ body {
   
   .description {
     white-space: pre-wrap;
+    background-color: rgb(221, 221, 221);
   }
   
   .time-block {
@@ -69,4 +70,3 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
