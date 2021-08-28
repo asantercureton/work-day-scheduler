@@ -5,9 +5,10 @@ var container = document.querySelector('container');
 var saveBtn = document.querySelectorAll('.col-sm-1 saveBtn');
 var textInput = document.querySelectorAll('.col-sm-10 description');
 var currentDate = moment().format("dddd, MMMM Mo");
-var now = Date.now();
+var columnTime = document.querySelectorAll('time-block');
+// var now = document.querySelector('')
 // var description = document.getElementsByClassName('.description');
-
+console.log("CV", columnTime);
 console.log("CURR", currentDate);
 
 
@@ -21,15 +22,34 @@ function returnText(){
     // let input = document.getElementById("textInput")
     alert("textInput")
 }
-
+// var currentTime = moment().format("H");
 // Display state: past, present, future
-if (currentDate > now) {
+
+console.log("HELLO");
+function changeState() {
+    // if (currentDate > columnTime) {
+    //     // Changing color green
+        
+    //     document.getElementById("time").style.backgroundColor = "green";
+    // } else {
+    //     // Change color red
+    //     document.getElementById("time").style.backgroundColor = "red";
+    // }
+};
+var formatDate = "dddd MMMM Mo";
+var formatDate = columnTime;
+console.log("TIME", formatDate.length);
+if (currentDate > formatDate) {
     // Changing color green
-    document.getElementById("col-sm-10").style.backgroundColor = "green";
+    
+    document.getElementById("time").style.backgroundColor = "green";
 } else {
     // Change color red
-    document.getElementById("col-sm-10").style.backgroundColor = "red";
+    document.getElementById("time").style.backgroundColor = "red";
 }
+
+// columnTime.forEach(changeState);
+
 // // Store
 // localStorage.setItem("test", textInput);
 // // Retrieve
